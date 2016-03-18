@@ -1,0 +1,1 @@
+/Users/nikolas.katigbak/dotfiles/bin/git-completion.bash
