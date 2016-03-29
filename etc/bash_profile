@@ -27,7 +27,7 @@ if [ -d ~/.bin/_external ]; then
 	export PATH=~/.bin/_external:$PATH
 fi
 
-export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
+export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
 
 # Load in .bashrc -------------------------------------------------
 source ~/.bashrc
