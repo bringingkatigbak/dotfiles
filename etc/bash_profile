@@ -30,6 +30,7 @@ fi
 export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
 export DATABASE_URL="postgres://nkatigbak:nikopostgres@localhost:5432/soundselect"
 export TZ="UTC"
+export BONSAI_URL=http://localhost:9200
 
 # Load in .bashrc -------------------------------------------------
 source ~/.bashrc
