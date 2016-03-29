@@ -34,7 +34,7 @@ source ~/.bashrc
 
 
 # Hello Messsage --------------------------------------------------
-echo -ne "${COLOR_GRAY}"
+echo -ne "${COLOR_PURPLE}"
 echo -e "Kernel Information: " `uname -smr`
 echo -e "`bash --version`"
 echo -ne "Uptime: "; uptime
