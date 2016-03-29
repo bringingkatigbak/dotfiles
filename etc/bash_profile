@@ -28,6 +28,7 @@ if [ -d ~/.bin/_external ]; then
 fi
 
 export PATH=/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
+export DATABASE_URL="postgres://nkatigbak:nikopostgres@localhost:5432/soundselect"
 
 # Load in .bashrc -------------------------------------------------
 source ~/.bashrc
