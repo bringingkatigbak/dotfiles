@@ -21,10 +21,6 @@ else
   # create symlinks in a configuration-independent manner
   DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-  # submodules
-  git submodule init
-  git submodule update
-
   # binaries
   symlink $DIR/bin ~/.bin
 
@@ -83,19 +79,10 @@ else
     fi
   fi
 
-  # vim
-  symlink $DIR/etc/vim/vimrc ~/.vimrc
-  symlink $DIR/etc/vim/gvimrc ~/.gvimrc
-  symlink $DIR/etc/vim ~/.vim
-
   # misc
   symlink $DIR/etc/subversion ~/.subversion
   symlink $DIR/etc/autotest ~/.autotest
   symlink $DIR/etc/irbrc ~/.irbrc
-  # symlink $DIR/etc/ssh_config ~/.ssh/config
-
-  # powerline shell prompt
-  symlink $DIR/etc/powerline/shell/powerline-shell.py ~/.powerline-shell.py
 
   # increase mac system open file and proc limits
   if [ -e /Library/LaunchDaemons ]; then
